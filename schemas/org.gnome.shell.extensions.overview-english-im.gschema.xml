@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.overview-english-im"
+          path="/org/gnome/shell/extensions/overview-english-im/">
+
+    <key name="english-source" type="s">
+      <default>'us'</default>
+      <summary>English input source</summary>
+      <description>
+        XKB layout id to switch to while the overview is open. Falls back to
+        the first XKB source when the id is not configured.
+      </description>
+    </key>
+
+    <key name="restore" type="b">
+      <default>true</default>
+      <summary>Restore the previous input source</summary>
+      <description>
+        Switch back to the source that was active before the overview opened.
+        A manual switch while the overview is open is never reverted.
+      </description>
+    </key>
+
+    <key name="debug" type="b">
+      <default>false</default>
+      <summary>Debug logging</summary>
+      <description>Log every switch decision to the journal.</description>
+    </key>
+
+  </schema>
+</schemalist>

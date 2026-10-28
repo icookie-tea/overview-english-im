@@ -1,0 +1,9 @@
+{
+  "uuid": "overview-english-im@icookie",
+  "name": "Overview English Input",
+  "description": "Switches to an English input source while the overview is open, and restores the previous one when you go back to the desktop.",
+  "shell-version": ["50"],
+  "session-modes": ["user"],
+  "settings-schema": "org.gnome.shell.extensions.overview-english-im",
+  "url": "https://github.com/icookie-tea/overview-english-im"
+}
